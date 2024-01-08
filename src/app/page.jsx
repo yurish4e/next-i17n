@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import {unstable_setRequestLocale} from 'next-intl/server';
 
-
-export default function Home() {
+export default function Home({params: {locale}}) {
+  unstable_setRequestLocale(locale);
   return (
     <main className={styles.main}>
       <div className={styles.description}>

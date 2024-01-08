@@ -9,7 +9,7 @@ export async function generateMetadata({params: {locale}}) {
     title: t('title')
   };
 }
-export default function Page({children, params: {locale}}) {
+export default function Page({ params: {locale}}) {
     unstable_setRequestLocale(locale);
     const t = useTranslations('Partner');
   return (

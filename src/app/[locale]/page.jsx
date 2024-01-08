@@ -3,8 +3,8 @@ import './style.css';
 import {unstable_setRequestLocale} from 'next-intl/server';
 
 export default function Index({params: {locale}}) {
-  const t = useTranslations('Index');
   unstable_setRequestLocale(locale);
+  const t = useTranslations('Index');
   return (
     <main>
       <div className="services-head">
