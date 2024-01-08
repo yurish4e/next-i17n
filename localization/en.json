@@ -1,0 +1,22 @@
+{
+  "Menu": {
+    "home": "Home",
+    "partners": "For partners"
+  },
+  "Metadata": {
+    "title": "I'm a SEO title",
+    "description": "I'm a description"
+  },
+    "Index": {
+      "title": "Our services",
+      "subTitle": "We are ready to provide you with an individual approach and professional assistance in any situations related to employment and living in EU countries.",
+      "service_1":{"title":"5 EURO", "text":"Receive the first consultation from our experts who are ready to answer your questions and provide useful advice on employment in the European Union.", "description":"Consultation"}, 
+      "service_2": {"title":"50 EURO", "text":"We will assist you with all the formalities and procedures related to official employment in EU countries, providing you with the necessary documents and information.", "description":"Employment Support"},
+      "service_3":  {"title":"NEGOTIABLE", "text":"If you have a problem with a partner or another conflict situation, we are ready to provide qualified assistance and support in its resolution, and we will agree on the price with you individually.", "description":"Support in Conflict Resolution"},
+      "test": {"a":"service 1", "b":"service 1", "c":"service 1"} 
+    },
+    "Partner": {
+      "title": "Affiliate Program",
+      "subTitle": "WHO CAN BE A PARTNER OF OUR COMPANY:"
+    } 
+  }

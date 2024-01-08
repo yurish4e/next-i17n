@@ -1,0 +1,21 @@
+{
+  "Menu": {
+    "home": "Główna",
+    "partners": "Dla partnerów"
+  }, 
+  "Metadata": {
+    "title": "Kurwa",
+    "description": "Bobr kurwa"
+  },
+  "Index": {
+      "title": "Nasze usługi",
+      "subTitle": "Jesteśmy gotowi zapewnić indywidualne podejście i profesjonalną pomoc w dowolnych sytuacjach związanych z zatrudnieniem i życiem w krajach UE.",
+      "service_1":{"title":"5 EURO", "text":"Otrzymaj pierwszą konsultację od naszych ekspertów, którzy są gotowi odpowiedzieć na Twoje pytania i udzielić przydatnych rad dotyczących zatrudnienia w Unii Europejskiej.", "description":"Konsultacja"},
+      "service_2": {"title":"50 EURO", "text":"Pomożemy Ci we wszystkich formalnościach i procedurach związanych z oficjalnym zatrudnieniem w krajach UE, zapewniając niezbędne dokumenty i informacje.", "description":"Wsparcie przy zatrudnieniu"}, 
+      "service_3":{"title":"DO UZGODNIENIA", "text":"Jeśli masz problem z partnerem lub inną sytuację konfliktową, jesteśmy gotowi świadczyć wykwalifikowaną pomoc i wsparcie w jej rozwiązaniu, a cenę uzgodnimy indywidualnie z Tobą.", "description":"Wsparcie w rozwiązywaniu konfliktów"}
+    },
+    "Partner": {
+      "title": "Affiliate Programme",
+      "subTitle": "KTO MOŻE ZOSTAĆ PARTNEREM NASZEJ FIRMY:"
+    } 
+  }

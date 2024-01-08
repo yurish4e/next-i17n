@@ -1,0 +1,18 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+.services__item {
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 16px;
+    margin: 8px;
+}
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .menu-link {
+    padding: 16px;
+  }
+  
