@@ -36,3 +36,10 @@ footer {
   margin-top: 64px;
   background-color: #3d83f3;
 }
+.job__cart {
+  display: inline-block;
+  width: 200px;
+  background-color: bisque;
+  padding: 16px 8px;
+  margin: 8px;
+}

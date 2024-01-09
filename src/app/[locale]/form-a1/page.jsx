@@ -6,6 +6,7 @@ import Image from 'next/image';
 import service_1 from '../../../../public/services_1.jpeg'
 
 import FormA1 from '@/components/FormA1'
+
 export async function generateMetadata({params: {locale}}) {
   const t = await getTranslations({locale, namespace: 'MetadataForm'});
  

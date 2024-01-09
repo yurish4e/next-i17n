@@ -2,14 +2,21 @@
   "Menu": {
     "home": "Головна",
     "partners": "Для партнерів",
-    "form": "Форма А1"
-  },"Metadata": {
+    "form": "Форма А1",
+    "jobs": "Робота"
+  },
+  "Metadata": {
     "title": "Я SEO заголовок",
     "description": "Я опис",
     "keywords": "один, два, три"
   },
   "MetadataForm": {
     "title": "I'm a SEO title form",
+    "description": "I'm a description",
+    "keywords": "один, два, три"
+  },
+  "MetadataHome": {
+    "title": "I'm a SEO title Home UA",
     "description": "I'm a description",
     "keywords": "один, два, три"
   },

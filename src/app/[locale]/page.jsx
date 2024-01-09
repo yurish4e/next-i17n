@@ -1,8 +1,19 @@
 import { useTranslations } from 'next-intl';
+import {getTranslations} from 'next-intl/server';
 import './style.css';
 import {unstable_setRequestLocale} from 'next-intl/server';
 import Image from 'next/image';
 import help_2 from '../../../public/help_2.jpg'
+
+export async function generateMetadata({params: {locale}}) {
+  const t = await getTranslations({locale, namespace: 'MetadataHome'});
+ 
+  return {
+    title: t('title'),
+    keywords: t('keywords'),
+    description: t('description')
+  };
+}
 
 export default function Index({params: {locale}}) {
   unstable_setRequestLocale(locale);

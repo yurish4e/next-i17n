@@ -2,7 +2,8 @@
   "Menu": {
     "home": "Główna",
     "partners": "Dla partnerów",
-    "form": "Formularz A1"
+    "form": "Formularz A1",
+    "jobs": "Robota"
   },
   "Metadata": {
     "title": "Kurwa",
@@ -11,6 +12,11 @@
   },
   "MetadataForm": {
     "title": "I'm a SEO title form",
+    "description": "I'm a description",
+    "keywords": "odin, dwa, tri"
+  },
+  "MetadataHome": {
+    "title": "I'm a SEO title Home Pl",
     "description": "I'm a description",
     "keywords": "odin, dwa, tri"
   },

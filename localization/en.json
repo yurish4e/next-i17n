@@ -2,7 +2,8 @@
   "Menu": {
     "home": "Home",
     "partners": "For partners",
-    "form": "Form A1"
+    "form": "Form A1",
+    "jobs": "Jobs"
   },
   "Metadata": {
     "title": "I'm a SEO title",
@@ -11,6 +12,11 @@
   },
   "MetadataForm": {
     "title": "I'm a SEO title form",
+    "description": "I'm a description",
+    "keywords": "one, two, three"
+  },
+  "MetadataHome": {
+    "title": "I'm a SEO title Home",
     "description": "I'm a description",
     "keywords": "one, two, three"
   },
