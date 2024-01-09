@@ -1,18 +1,38 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 .services {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .services__item {
-    width: 300px;
-    background-color: antiquewhite;
-    padding: 16px;
-    margin: 8px;
+  width: 300px;
+  padding: 32px 16px 16px;
+  margin: 8px;
+  background: antiquewhite url('../../../public/ico.svg') left 16px top 16px
+    no-repeat;
+}
+.services__image {
+  max-width: 1080px;
+  height: auto;
+  margin-top: 32px;
 }
 main {
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .menu-link {
-    padding: 16px;
-  }
-  
+  max-width: 1080px;
+  min-height: calc(100vh - 300px);
+  margin: 0 auto;
+  padding-top: 32px;
+}
+footer {
+  height: 300px;
+  margin-top: 64px;
+  background-color: #3d83f3;
+}

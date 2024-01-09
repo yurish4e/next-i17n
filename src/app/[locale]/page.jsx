@@ -1,12 +1,14 @@
 import { useTranslations } from 'next-intl';
 import './style.css';
 import {unstable_setRequestLocale} from 'next-intl/server';
+import Image from 'next/image';
+import help_2 from '../../../public/help_2.jpg'
 
 export default function Index({params: {locale}}) {
   unstable_setRequestLocale(locale);
   const t = useTranslations('Index');
   return (
-    <main>
+    <div>
       <div className="services-head">
         <h1>{t('title')}</h1>
         <h2>{t('subTitle')}</h2>
@@ -21,6 +23,11 @@ export default function Index({params: {locale}}) {
         ))}
         
       </div>
-    </main>
+      <Image  
+      src={help_2}
+      className='services__image'
+      alt={t('alt')}
+      />
+    </div>
   );
 }

@@ -1,21 +1,49 @@
 {
   "Menu": {
     "home": "Główna",
-    "partners": "Dla partnerów"
-  }, 
+    "partners": "Dla partnerów",
+    "form": "Formularz A1"
+  },
   "Metadata": {
     "title": "Kurwa",
-    "description": "Bobr kurwa"
+    "description": "Bobr kurwa",
+    "keywords": "odin, dwa, tri"
+  },
+  "MetadataForm": {
+    "title": "I'm a SEO title form",
+    "description": "I'm a description",
+    "keywords": "odin, dwa, tri"
   },
   "Index": {
-      "title": "Nasze usługi",
-      "subTitle": "Jesteśmy gotowi zapewnić indywidualne podejście i profesjonalną pomoc w dowolnych sytuacjach związanych z zatrudnieniem i życiem w krajach UE.",
-      "service_1":{"title":"5 EURO", "text":"Otrzymaj pierwszą konsultację od naszych ekspertów, którzy są gotowi odpowiedzieć na Twoje pytania i udzielić przydatnych rad dotyczących zatrudnienia w Unii Europejskiej.", "description":"Konsultacja"},
-      "service_2": {"title":"50 EURO", "text":"Pomożemy Ci we wszystkich formalnościach i procedurach związanych z oficjalnym zatrudnieniem w krajach UE, zapewniając niezbędne dokumenty i informacje.", "description":"Wsparcie przy zatrudnieniu"}, 
-      "service_3":{"title":"DO UZGODNIENIA", "text":"Jeśli masz problem z partnerem lub inną sytuację konfliktową, jesteśmy gotowi świadczyć wykwalifikowaną pomoc i wsparcie w jej rozwiązaniu, a cenę uzgodnimy indywidualnie z Tobą.", "description":"Wsparcie w rozwiązywaniu konfliktów"}
+    "title": "Nasze usługi",
+    "subTitle": "Jesteśmy gotowi zapewnić indywidualne podejście i profesjonalną pomoc w dowolnych sytuacjach związanych z zatrudnieniem i życiem w krajach UE.",
+    "service_1": {
+      "title": "5 EURO",
+      "text": "Otrzymaj pierwszą konsultację od naszych ekspertów, którzy są gotowi odpowiedzieć na Twoje pytania i udzielić przydatnych rad dotyczących zatrudnienia w Unii Europejskiej.",
+      "description": "Konsultacja"
     },
-    "Partner": {
-      "title": "Affiliate Programme",
-      "subTitle": "KTO MOŻE ZOSTAĆ PARTNEREM NASZEJ FIRMY:"
-    } 
+    "service_2": {
+      "title": "50 EURO",
+      "text": "Pomożemy Ci we wszystkich formalnościach i procedurach związanych z oficjalnym zatrudnieniem w krajach UE, zapewniając niezbędne dokumenty i informacje.",
+      "description": "Wsparcie przy zatrudnieniu"
+    },
+    "service_3": {
+      "title": "DO UZGODNIENIA",
+      "text": "Jeśli masz problem z partnerem lub inną sytuację konfliktową, jesteśmy gotowi świadczyć wykwalifikowaną pomoc i wsparcie w jej rozwiązaniu, a cenę uzgodnimy indywidualnie z Tobą.",
+      "description": "Wsparcie w rozwiązywaniu konfliktów"
+    },
+    "alt": "Robotyaha"
+  },
+  "Partner": {
+    "title": "Affiliate Programme",
+    "subTitle": "KTO MOŻE ZOSTAĆ PARTNEREM NASZEJ FIRMY:",
+    "cooperationTitle": "WARUNKI KORZYSTANIA Z USŁUGI",
+    "cooperationList": "Wszystko jest proste! W pierwszym miesiącu współpracy z nami możesz otrzymać do 1000 € premii! Wszystko, co musisz zrobić, to dopasować swoich kandydatów do oferowanych przez nas wakatów. Twój dochód wzrośnie wraz z liczbą kandydatów, ponieważ premie zaczną przychodzić po pierwszym dniu pracy każdego pracownika.///Za każdy przepracowany przez kandydata miesiąc przysługuje nagroda w wysokości 50 euro. Płatność jest dokonywana przez cały przez cały okres pracy pracowników. Jeśli wybierzesz 10 lub więcej kandydatów, którzy będą pracować w tym samym czasie, Twoja wynagrodzenie wzrośnie do 60 euro.///Płacimy również atrakcyjne premie, jeśli polecisz nam innych pracodawców. Wszystko, co musisz zrobić, to udostępnić kontaktami pracodawcy z naszym menedżerem. Po udanej transakcji i pierwszym miesiącu współpracy wypłacimy Ci jednorazową nagrodę w wysokości 300 euro."
+  },
+  "Form": {
+    "title": "Dostarczamy niezbędne dokumenty, w tym również A1 od polskiej firmy.",
+    "imageAlt": "Kobieta robi mądra twarz",
+    "subTitle": "Przygotowujemy niezbędne dokumenty do oficjalnego zatrudnienia w krajach Unii Europejskiej.",
+    "list": "Potwierdzenie zarejestrowania klienta w firmie w Polsce./Podpisanie umowy o pracę i umowy odpowiedzialności./Załatwienie dokumentów w konsulacie."
   }
+}

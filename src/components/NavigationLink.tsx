@@ -18,7 +18,7 @@ export default function NavigationLink({
       aria-current={isActive ? 'page' : undefined}
       href={href}
       className='menu-link'
-      style={{fontWeight: isActive ? 'bold' : 'normal'}}
+      style={{backgroundColor: isActive ? '#ff8b03' : 'transparent'}}
       {...rest}
     />
   );

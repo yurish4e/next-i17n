@@ -11,13 +11,17 @@ export function generateStaticParams() {
 export default function LocaleLayout({children, params: {locale}}) {
   unstable_setRequestLocale(locale);
     return (
-      <html lang={locale}>
+      <html >
         <body>
           <header>
             <LangSwitcher/>
             <Navigation/>
           </header>
-          {children}</body>
+          <main>{children}</main>
+          <footer>
+            
+          </footer>
+          </body>
       </html>
     );
   }

@@ -8,6 +8,7 @@ export default function Navigation() {
     <nav>
       <NavigationLink href="/">{t('home')}</NavigationLink>
       <NavigationLink href="/for-partner">{t('partners')}</NavigationLink>
+      <NavigationLink href="/form-a1">{t('form')}</NavigationLink>
     </nav>
   );
 }
